@@ -4,14 +4,19 @@ import ListItems from '../components/ListItems'
 
 const NotesListPages = ()  => {
   return (
-    <div>
-     <div className='notes-list'>
-       {notes.map((note, index) => 
-        (
+     <div className='notes'>
+           <div className='notes-header'>
+              <h2 className='notes-title'>&#9782; Notes</h2>
+            </div>
+     
+           <div className='notes-list'>
+             {notes.map((note, index) => 
+           (
             <ListItems key={index} note={note}/>
-        ))}
-    </div>
-    </div>
+           ))}
+          </div>
+  </div>
+    
   )
 }
 
