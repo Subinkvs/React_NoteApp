@@ -1,9 +1,9 @@
 const Header = () =>{
 
     return(
-       <div>
+       <div className="app-header">
         <h1>
-            My Header
+            Notes List
         </h1>
        </div>
     )

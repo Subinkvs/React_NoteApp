@@ -21,6 +21,11 @@ const notes = [
     {
         "id": 4,
         "body":"Petting Dogs"
+    },
+
+    {
+        "id":5,
+        "body":"Going to Gym"
     }
 ]
 
